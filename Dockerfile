@@ -10,7 +10,7 @@ COPY . .
 #Install the dependecies
 RUN npm install
 RUN npm run test
-RUN apt-get install nodejs
+#RUN apt-get install nodejs
 EXPOSE 8000
 
 #Run the code
